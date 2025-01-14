@@ -1,0 +1,39 @@
+:root{
+    --primary: #b9ff8b;
+    --primary-light: #b9ff8b;
+    --secondary: #621616;
+    --secondary-light: #621616;
+}
+
+.navbar{
+    background-color: var(--primary);
+    height: 110px;
+}
+
+.navbar p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu{
+    position: absolute;
+    right: 150px;
+    top: 68px;
+    z-index: 1;
+
+}
+
+.menu a{
+    font-size: 20px;
+}
+
+
+footer{
+    position:absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: var(--secondary-light);
+
+}
+
+
